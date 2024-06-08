@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Unit 1 Assignment: Globetrotter
 
 Submitted by: **NAME**
@@ -61,29 +59,31 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] Integrate at least one custom font using Google Fonts to add personality to your site.
   - [ ] Experiment with at least one CSS property not covered in the lessons or labs to customize your page further.
 
-### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+  Yes it helped alot
+  I really had a difficult time at first with JavaScript but the more i got to do it the more i understood. The labs was of     great help and the project was very compherensive
+
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+Yes, I would definitely create a better looking and more interactive website.
+I could not have the extension on my company's laptop VS code to organise my intentations
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+  This is the first time i ever build a website and i am very impressed of what i could acheive in a week with Codepath and my instructor's assistance. Jakie did an awesome job explaining the material
+  
+  https://www.w3schools.com/
+I 
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+
 
 ### Shout out
 
