@@ -1,8 +1,8 @@
 ## Unit 1 Assignment: Globetrotter
 
-Submitted by: **NAME**
+Submitted by: **Frank Dornberger Wember**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **60** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
