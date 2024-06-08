@@ -10,11 +10,11 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 #### CORE FEATURES
 
-- [ X] **Home Page**
-  - [X ] A heading that captures the essence of the destination.
-  - [X ] An introductory paragraph that welcomes visitors and sets the context for the site.
+- [X] **Home Page**
+  - [X] A heading that captures the essence of the destination.
+  - [X] An introductory paragraph that welcomes visitors and sets the context for the site.
   - [] An evocative image that represents the location.
-  - [ X] Content organized using Flexbox for a fluid layout.
+  - [X] Content organized using Flexbox for a fluid layout.
 
 - [X] **Top Attractions Page**
   - [X] A minimum of three attractions, each with a name, a photo, and a brief description.
@@ -25,9 +25,9 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] At least three entries that provide a name, address, and a description catered to a specific type of traveler (families, backpackers, etc.).
   - [ ] Links to more information for each entry, laid out using Flexbox.
 
-- [ X] **Photo Gallery**
-  - [X ] At least five images with captions that convey the local atmosphere or highlights.
-  - [X ] A gallery presented in a responsive design.
+- [X] **Photo Gallery**
+  - [X] At least five images with captions that convey the local atmosphere or highlights.
+  - [X] A gallery presented in a responsive design.
 
 - [ ] **Navigation Bar**
   - [ ] Links to each main page of the site (Home, Top Attractions, Photo Gallery, and the chosen Guide section).
@@ -41,7 +41,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 - [ ] **Additional Media**
   - Embed a map or a video that relates to the travel content.
 
-- [X ] **Enhanced Layouts**
+- [X] **Enhanced Layouts**
   - Utilize CSS Grid on one or more pages for a unique layout.
 
 - [ ] **Interactive Features**
@@ -71,15 +71,15 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Yes, I would definitely create a better looking and more interactive website.
-I could not have the extension on my company's laptop VS code to organise my intentations
+  Yes, I would definitely create a better looking and more interactive website.
+  I could not have the extension on my company's laptop VS code to organise my intentations
 
-* Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
+* Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try   next time?
 
-  This is the first time i ever build a website and i am very impressed of what i could acheive in a week with Codepath and my instructor's assistance. Jakie did an awesome job explaining the material
+  This is the first time i ever build a website and i am very impressed of what i could acheive in a week with Codepath and my instructor's assistance. Jakie did an awesome    job explaining the material
   
   https://www.w3schools.com/
-I 
+
 
 ### Open-source libraries used
 
@@ -87,4 +87,4 @@ I
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc. shout out to Jakie and Thomas
