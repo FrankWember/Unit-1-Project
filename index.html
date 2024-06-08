@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Playlist Explorer</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header>
+        Music Playlist Explorer
+        <a href = "feature.html">
+        <button id="feature-btn">Daily Features</button>
+        </a>
+        <button id="theme">Toggle Theme</button>
+
+    </header>
+
+    <main>
+
+
+        <div id="playlistModal" class="modal" >
+            <div class="modal-content" >
+                <span class="close">&times;</span>
+                <img id = "modal-playlist-image" src="">
+                <button id = "shuffle-btn">shuffle</button>
+                <span id="modal-playlist-title"></span>
+                <span id="modal-playlist-creator"></span>
+
+                <ul id="modal-song-list"></ul>
+            </div>
+        </div>
+
+        <div class="grid-container" id="playlist"></div>
+
+    <div>
+
+        <div id="newPlaylistModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add new Playlist</h2>
+                <form id="newPlaylistForm">
+                    <label for="playlistName">PlaylistName</label>
+                    <input type="text" id="playlistName" name="playlistName" required>
+                    <label for="playlistCreator">PlaylistCreator</label>
+                    <input type="text" id="playlistCreator" name="playlistCreator" required>
+                    <label for="playlistNArt">PlaylistArt</label>
+                    <input type="url" id="PlaylistArt" name="PlaylistArt" required>
+                    <button type="submit">Add Playlist</button>
+                </form>
+            </div>
+            <button id="addPlaylistBtn">Add New Playlist</button>
+        </div>
+
+    </div>
+
+
+    </main>
+    <footer>
+    </footer>
+    <script src="data/data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

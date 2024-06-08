@@ -1,0 +1,377 @@
+header{
+    background: linear-gradient(rgb(86, 129, 202), rgb(43, 13, 13)) ;
+    font-family: cursive;
+    justify-content: left;
+    padding: 10px 0px 10px 5px;
+    margin-bottom:20px ;
+    font-weight: bold;
+    font-size: 45px;
+    border-top-left-radius: 5px;
+    border-bottom: rgb(115, 113, 113);
+    background-color: rgb(126, 122, 190);
+    color: wheat;
+    opacity: 0.8;
+    position: relative;
+
+}
+footer{
+    background: linear-gradient(brown, rgb(86, 129, 202)) ;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    border-top: rgb(115, 113, 113);
+    opacity: 0.8;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    position: relative;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+#theme{
+    background-color: #b35c48;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 20px;
+
+}
+#feature-btn{
+    background-color: #57b63d;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 450px;
+
+}
+
+
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+button:hover{
+    opacity: 0.8;;
+    color: black;
+    border: 2px solid #008CBA;
+  }
+
+#shuffle-btn{
+    position: absolute;
+    bottom:320px;
+    right : 50px;
+}
+
+body.light-mode{
+    background: radial-gradient( circle, rgb(215, 208, 208), rgb(162, 93, 53), rgb(215, 208, 208));
+}
+
+body.dark-mode{
+    background: radial-gradient( circle, rgb(86, 129, 202), rgb(87, 32, 32),  black);
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.grid-item h2{
+    justify-content: left;
+    margin-block-start: 4px;
+    margin-block-end: 1px;
+    margin-left: 4px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.grid-item p{
+    color: #674339;
+    font-family: cursive;
+    justify-content: left;
+    margin-block-start: 2px;
+    margin-block-end: 1px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+.grid-item #gridImage{
+    border-radius: 20px;
+
+}
+
+
+.feature #feature-playlist-image{
+    border-radius: 60px;
+    width:350px;
+    height: auto;
+}
+
+img{
+    opacity: 1;
+}
+.grid-item #likesButton{
+    justify-content: left;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-block-start: 5px;
+    margin-block-end: 3px;
+    bottom: 4px;
+}
+
+.grid-item #trashButton{
+    justify-content: left;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-block-start: 5px;
+    margin-block-end: 3px;
+    bottom: 4px;
+    right: 20px;
+}
+
+.grid-item #likeCounts{
+    justify-content: left;
+    font-weight: bold;
+    font-style: italic;
+    margin-block-start: 2px;
+    margin-block-end: 3px;
+    margin-left: 30px;
+    margin-top: 0px;
+    bottom: 4px;
+    position: absolute;
+}
+
+
+.grid-item{
+    border: rgba(211,211,211,255) solid ;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 15px;
+    margin-right: auto;
+    height: 300px;
+    width: 200px;
+    border: rgb(83, 112, 152) solid;
+    background-color: rgb(227, 166, 109);
+    position: relative;
+
+}
+
+.grid-item:hover{
+    background:#add9eb;
+    opacity: 0.6;
+}
+
+.feature{
+
+}
+
+/* CSS for Modal */
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(246, 234, 223); /* Black w/ opacity */
+    opacity: 0.9;
+ }
+ .modal-content {
+    overflow-y: auto;
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    height: 500px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    position: relative;
+ }
+
+ .modal #songImage{
+    border-radius: 6px;
+}
+
+#modal-playlist-title{
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+ }
+
+
+ #modal-playlist-creator{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+ }
+#modal-song-list{
+    border: #93c1e9 solid 2px;
+    border-radius: 5px;
+    padding: 0px;
+    overflow: scroll;
+}
+ #modal-song-list li{
+    display: flex;
+    position: relative;
+    margin : 10px;
+    border-radius : 7px;
+    border:#93c1e9 solid 1px;
+ }
+
+
+ #modal-song-list li img{
+    width : 50px;
+    border-radius: 2px;
+    border:#93c1e9 1px;
+ }
+
+ #modal-song-list li:hover{
+    border-radius: 5px;
+    border: rgb(157, 73, 73) solid 1px;
+    background:#93c1e9;
+}
+#modal-playlist-image{
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#modal-playlist-image:hover {opacity: 0.7;}
+
+
+
+ #feature-playlist-title{
+    position: absolute;
+    left: 418px;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: cursive;
+ }
+
+
+#feature-song-list{
+    scroll-padding-left: 4px;
+    overflow : scroll brown;
+    position: relative;
+    bottom: 260px;
+    width: 500px;
+    left:400px;
+    height:max-content;
+}
+
+ #feature-playlist-creator{
+    position: absolute;
+    left: 447px;
+    top: 180px;
+    font-weight: normal;
+    font-size: large;
+    font-style: italic;
+    font-family: curr;
+ }
+
+ #feature-song-list li{
+    display: flex;
+    position: relative;
+    margin : 10px;
+    border-radius : 7px;
+
+
+ }
+
+ #feature-song-list li img{
+    width : 40px;
+    padding:10px;
+    border:#93c1e9 4px;
+ }
+
+ #feature-song-list li:hover{
+ background-color: #93c1e9 solid;
+ }
+
+
+
+#feature-playlist-image{
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+
+#feature-playlist-image:hover{opacity: 0.7;}
+
+#songDuration{
+    position: absolute;
+    left: 383px;
+    bottom: 20px;
+    font-weight:normal;
+    font-size: bold;
+}
+
+#songTitle{
+    position: absolute;
+    left: 60px;
+    font-weight:bold;
+    font-size: large;
+}
+#songArtist{
+    color: #535353;
+    position: absolute;
+    left: 60px;
+    top: 18px;
+    font-weight:normal;
+    font-size: small;
+}
+#songAlbum{
+    color: #757474;
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    font-weight:lighter;
+    font-size: small;
+
+}
+
+ .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+ }
+ .close:hover,
+ .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+ }
